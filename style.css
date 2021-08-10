@@ -1,0 +1,1375 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainBlock {
+    margin: 0 auto;
+    background-image: url(/img/Rectangle\ 164.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.topFeedback {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    padding-top: 99px;
+}
+
+.logo {
+    position: relative;
+}
+
+@media(max-width: 480px) {
+    .logo {
+      padding-left: 63px;
+    }
+  }
+
+.particleLogo {
+    position: absolute;
+    padding-left: 37px;
+    bottom: 40px;
+
+}
+
+.orderNumber {
+    display: flex;
+    align-items: flex-end;
+}
+
+.orderNumber p {
+    display: table;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 100%;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin: 0;
+    padding-bottom:6.5px;
+    text-align: right;
+    padding-left: 49px;
+}
+
+@media(max-width: 480px) {
+    .orderNumber p {
+      padding-left: 35px;
+      padding-top: 60px;
+    }
+  }
+
+.orderButton {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 18px;
+}
+
+@media(max-width: 480px) {
+    .orderButton {
+      padding-left: 65px;
+    }
+  }
+
+.orderButton button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    box-sizing: border-box; 
+    border-radius: 30px;
+    border: 2px solid white;
+    width: 190px;
+    height: 40px;
+}
+
+.orderButton a {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: right;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+
+}
+
+.slogan {
+    max-width: 1060px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.slogan p {
+    font-family: Didact Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 194px;
+}
+
+@media(max-width: 480px) {
+    .slogan {
+        max-width: 300px;
+    }
+    .slogan p {
+      font-size: 40px;
+      padding-top: 62px;
+    }
+  }
+
+.buttonForOrdering {
+    margin: 0 auto;
+    margin-top: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 34px 60px;
+    width: 197px;
+    height: 86px;
+    background: #B24D97;
+    border-radius: 50px 0px;
+    border: 0;
+}
+
+.buttonForOrdering a{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: right;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}  
+
+.advantages {
+    margin: 80px auto 0 auto;
+    max-width: 954px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    padding-bottom: 100px;
+}
+
+@media(max-width: 480px) {
+    .advantages {
+        max-width: 284px;
+        margin: 0 auto;
+    }
+  }
+
+.advantage {
+    max-width: 237px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+.advantage img {
+    display: flex;
+    align-self: center;
+    margin: auto;
+}
+
+.advantage p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    text-align: center;
+}
+
+@media(max-width: 480px) {
+    .advantages {
+        padding-bottom: 40px;
+    }
+    .advantages p {
+      font-size: 18px;
+    }
+  }
+
+.whyUs {
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.headerWhyUs {
+    margin: 0 20px;
+}
+
+.headerWhyUs p {
+    margin-top: 114px;
+    font-family: Didact Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #2F4152;
+}
+
+@media(max-width: 480px) {
+    .headerWhyUs p {
+      font-size: 48px;
+    }
+  }
+
+.textWhyUs {
+    max-width: 710px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+@media(max-width: 480px) {
+    .textWhyUs {
+        max-width: 290px;
+    }
+  }
+
+.textWhyUs p {
+    margin-top: 51px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #2F4152;
+}
+
+@media(max-width: 480px) {
+    .textWhyUs p {
+      font-size: 16px;
+    }
+  }
+
+.answerWhyUs {
+    margin: 0 auto;
+    padding: 0;
+    width: 1212px;
+    margin-bottom: 109px;
+}
+
+@media(max-width: 480px) {
+    .answerWhyUs {
+        max-width: 270px;
+        margin: 0 auto;
+    }
+    .answer1 {
+        padding-left: 0;
+    }
+    .answer2 {
+        padding-left: 0;
+    }
+    .answer3 {
+        padding-left: 0;
+    }
+    .answer4 {
+        padding-left: 0;
+    }
+    .answerWhyUs p {
+      text-align: center;
+    }
+  }
+
+.answer4 img {
+    margin-top: 26px;
+}
+
+.headerAnswer {
+    max-width: 270px;
+}
+
+.headerAnswer p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #2F4152;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 40px 0px 20px 0px;
+    padding: 0;
+}
+
+.textAnswer {
+    max-width: 270px;
+}
+
+.textAnswer p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    color: #2F4152;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0;
+}
+
+.curve {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 115px;
+}
+
+@media(max-width: 480px) {
+    .curve {
+        display: none;
+    }
+  }
+
+.curve img {
+    position: absolute;
+    bottom: 185px;
+    left: 160px;
+}
+
+.HowItWork {
+    background-color: #319B66;
+}
+
+.headerHowItWork p {
+    margin: 0;
+    padding-top: 93px;
+    padding-bottom: 126px;
+    font-family: Didact Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+@media(max-width: 480px) {
+    .headerHowItWork p {
+      font-size: 48px;
+    }
+  }
+
+.stages {
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto 35px auto;
+}
+
+.stage {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    width: 270px !important;
+    height: 152px;
+    background: #CEEBFB;
+    border-radius: 50px 0px;
+    position: relative;
+    z-index: 100;
+}
+
+.stage p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    color: #2F4152;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0;
+}
+
+.numberHowItWork {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4px 23px 0px 23px;
+    width: 68px;
+    height: 68px;
+    background: #B24D97;
+    border-radius: 70px;
+    position: absolute;
+    bottom: 130px;
+    
+}
+
+.numberHowItWork p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    display: flex;
+    align-items: center;
+}
+
+.stage1 {
+    height: 129px !important;
+}
+
+.stage1 .numberHowItWork {
+    bottom: 107px !important;
+}
+
+.leftStage1 {
+    margin-left: 100px;
+}
+
+.curveSmall {
+    position: relative;
+    padding-bottom: 93px;
+}
+
+.curveSmall img {
+    position: absolute;
+    top: 130px;
+    left: 35px;
+}
+
+.curveSmall .stage {
+    margin-bottom: 77px;
+}
+
+@media(min-width: 480px) {
+    .curveSmall {
+        display: none;
+    }
+  }
+
+@media(max-width: 480px) {
+    .headerHowItWork p {
+        padding-top: 63px !important;
+        padding-bottom: 90px !important;
+    }
+  }
+
+.headerTypesOfMenus {
+    margin: 0 auto;
+    padding-top: 118px;
+}
+
+.headerTypesOfMenus p {
+    font-family: Didact Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #2F4152;
+}
+
+@media(max-width: 480px) {
+    .headerTypesOfMenus {
+        padding-top: 118px;
+    }
+    .headerTypesOfMenus p {
+        font-size: 48px;
+    }
+  }
+
+.buttonsTypesOfMenus {
+    margin: 0 auto;
+    max-width: 1040px;
+    padding-top: 83px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.activeButtonsTypesOfMenus {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 30px;
+    height: 86px;
+    background: #319B66;
+    border-radius: 50px 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: 0;
+}
+
+.activeButtonsTypesOfMenus p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.notActiveButtonsTypesOfMenus {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 30px;
+    height: 86px;
+    background: #CEEBFB;
+    border-radius: 50px 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: 0;
+}
+
+.notActiveButtonsTypesOfMenus p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #2F4152;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+@media(max-width: 480px) {
+    .buttonsTypesOfMenus {
+        display: none;
+    }
+  }
+
+.smallButtonTypesOfMenus {
+    max-width: 278px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.smallButtonTypesOfMenus p {
+    font-size: 18px !important;
+}  
+
+.smallButtonTypesOfMenus nav ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+}
+
+.smallButtonTypesOfMenus .activeButtonsTypesOfMenus {
+    width: 278px;
+    height: 84px;
+}
+
+.smallButtonTypesOfMenus .notActiveButtonsTypesOfMenus {
+    width: 278px;
+    height: 83px;
+    border-radius: 0;
+    margin: 5px 0;
+}
+
+.smallButtonTypesOfMenus nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.smallButtonTypesOfMenus nav ul li:hover > ul {
+    display:inherit;
+}
+
+.smallButtonTypesOfMenus nav ul ul li {
+    float:none;
+    display:list-item;
+    position: relative;
+}
+
+.up {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+@media(min-width: 480px) {
+    .smallButtonTypesOfMenus {
+        display: none;
+    }
+  }
+
+.bigFood {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 168px;
+}
+
+.nameFood p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    color: #2F4152;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin: 0;
+}
+
+.aboutFood p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    color: #2F4152;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.aboutFood ul li {
+    color: #2F4152;
+}
+
+.breakfast {
+    margin-bottom: 55px;
+}
+
+.aboutMenu {
+    max-width: 390px;
+    border: 6px dotted #CEEBFB;
+    max-height: 686px;
+    margin: 0 auto;
+}
+
+.nameMenu {
+    padding-top: 60px;
+    padding-left: 35px;
+}
+
+.nameMenu p {
+    margin: 0;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #2F4152;
+    margin: 0;
+}
+
+.structureMenu {
+    max-width: 330px;
+    margin: 0;
+    padding-top: 22px;
+    padding-left: 35px;
+}
+
+.structureMenu p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #2F4152;
+    margin: 0;
+}
+
+.kkalMenu {
+    margin: 0;
+    padding-top: 120px;
+    padding-left: 35px;
+}
+
+.kkalMenu p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 130%;
+    color: #2F4152;
+    margin: 0;
+}
+
+.priceMenu {
+    margin: 0;
+    padding-top: 13px;
+    padding-left: 35px;
+}
+
+.priceMenu p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 130%;
+    color: #2F4152;
+    margin: 0;
+}
+
+.aboutMenu .buttonForOrdering {
+    margin-top: 31px !important;
+    height: 58px !important;
+}
+
+@media(max-width: 480px) {
+    .bigFood {
+        display: none;
+    }
+  }
+
+.smallFood {
+    margin: 0 auto;
+    max-width: 275px;
+    margin-top: 60px;
+}
+
+@media(min-width: 480px) {
+    .smallFood {
+        display: none;
+    }
+  }
+
+@media(max-width: 480px) {
+    .smallFoodImg {
+        max-height: 230px;
+        max-width: 270px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .smallFoodImg img {
+        height: 100%;
+        width: auto;
+    }
+    .nameMenu {
+        padding-left: 0;
+        text-align: center;
+    }
+    .structureMenu {
+        padding-left: 0;
+        text-align: center;
+        margin: auto 14px;
+    }
+    .kkalMenu {
+        padding-left: 0;
+        text-align: center;
+        padding-top: 28px;
+    }
+    .priceMenu {
+        padding-left: 0;
+        text-align: center;
+    }
+    .buttonForOrdering {
+        margin-bottom: 46px;
+    }
+  }
+
+@media(max-width: 480px) {
+    .nameFood p {
+        font-size: 20px;
+    }
+    .aboutFood p {
+        font-size: 18px;
+    }
+  }
+
+.orderingSet {
+    background-color: #319B66;
+}
+
+.headerOrderingSet {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+
+.headerOrderingSet p {
+    margin: 0;
+    font-family: Didact Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.textSet {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 65px;
+}
+
+.textSet p {
+    margin: 0;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.buttonsSet {
+    margin: 0 auto;
+    max-width: 1020px;
+    padding-top: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.activeButtonSet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 18px 36px;
+    height: 59px;
+    background: #B24D97;
+    border-radius: 36px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: 0;
+}
+
+.activeButtonSet p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0;
+}
+
+.notActiveButtonSet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 18px 36px;
+    height: 59px;
+    background: #CEEBFB;
+    border-radius: 36px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: 0;
+}
+
+.notActiveButtonSet p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #2F4152;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0;
+}
+
+@media(min-width: 480px) {
+    .smallButtonSet {
+        display: none;
+    }
+  }
+
+@media(max-width: 480px) {
+    .buttonsSet {
+        display: none;
+    }
+  }
+
+.down {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.smallButtonSet {
+    max-width: 282px;
+    margin: 0 auto;
+}
+
+.smallButtonSet nav ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+}
+
+.smallButtonSet .activeButtonSet {
+    width: 282px;
+    height: 60px;
+}
+
+.smallButtonSet .notActiveButtonSet {
+    width: 282px;
+    height: 60px;
+    border-radius: 0;
+    margin: 5px 0;
+}
+
+.smallButtonSet nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.smallButtonSet nav ul li:hover > ul {
+    display:inherit;
+}
+
+.smallButtonSet nav ul ul li {
+    float:none;
+    display:list-item;
+    position: relative;
+}
+
+.quantityDays {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.quantityDays p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.setDays {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 60px;
+    position: relative;
+}
+
+.days {
+    max-width: 1073px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    position: relative;
+}
+
+@media(max-width: 480px) {
+    .days {
+        max-width: 290px;
+    }
+    .text1Day {
+        display: none;
+    }
+    .text2Day {
+        display: none;
+    }
+  }
+
+.line1 {
+    height: 18px;
+    background: #CEEBFB;
+    position: relative;
+    top: 20px;
+    margin: 0 10.5%;
+    z-index: 1;
+}
+
+.activeCircleDay {
+    width: 26px;
+    height: 26px;
+    background: #B24D97;
+    border: 6px solid #FFFFFF;
+    border-radius: 26px;
+    margin: 0 auto;
+    position: static;
+}
+
+.text1Day p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 25px;
+}
+
+.text2Day p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.notActiveCircleDay {
+    position: static;
+    width: 26px;
+    height: 26px;
+    background: #319B66;
+    border: 6px solid #FFFFFF;
+    border-radius: 26px;
+    margin: 0 auto;
+    z-index: 1000;
+}
+
+.lineDays {
+    background: #CEEBFB;
+    width: 936px;
+    height: 18px;
+    margin: 0 auto;
+    position: absolute;
+    left: 137px;
+    top: 64px;
+}
+
+.ordering {
+    max-width: 780px;
+    margin: 0 auto;
+    padding-top: 78px;
+    align-items: center;
+}
+
+.client {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 22px 20px;
+    width: 358px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.client input {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.01em;
+    color: #B5B5B5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+input[type='text']{
+    border: none;
+}
+
+textarea:focus, input:focus
+{
+  outline: none;
+}
+
+input {
+    size: 30;
+}
+
+.orderingSet {
+    padding-bottom: 67px;
+}
+
+@media(max-width: 480px) {
+    .client {
+        width: 279px;
+        margin-left: 5px;
+    }
+    input {
+        size: 6;
+    }
+  }
+
+.ordering button {
+    margin-top: 10px;
+}
+
+.aboutBatat {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 115px;
+    padding-bottom: 100px;
+}
+
+@media(min-width: 480px) {
+    .aboutBatat {
+        display: flex;
+        justify-content: space-between;
+    }
+  }
+
+@media(max-width: 480px) {
+    .aboutBatat {
+        max-width: 280px;
+        padding-top: 42px;
+        padding-bottom: 90px;
+    }
+    .headerAboutBatat {
+        padding-top: 41px;
+    }
+    .headerAboutBatat p {
+        font-size: 36px !important;
+        text-align: center;
+    }
+    .textAboutBatat {
+        padding-top: 45px;
+    }
+    .textAboutBatat p {
+        font-size: 18px !important;
+        text-align: center;
+    }
+    .aboutBatat img {
+        max-height: 100px !important;
+        max-width: 238px;
+        margin-left: 20px !important;
+    }
+  }
+
+.logoBatat {
+    max-width: 352px;
+}
+
+.logoBatat img {
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.headerAboutBatat {
+    margin: 0;
+    max-width: 786px;
+}
+
+.headerAboutBatat p {
+    font-family: Didact Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 120%;
+    color: #2F4152;
+    margin: 0;
+}
+
+.mainAboutBatat {
+    margin: 0;
+    max-width: 786px;
+}
+
+.textAboutBatat {
+    margin: 0;
+    max-width: 786px;
+    padding-top: 50px;
+}
+
+.textAboutBatat p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #2F4152;
+    margin: 0;
+}
+
+.greenText {
+    color: #319B66;
+}
+
+footer {
+    background-color: #CEEBFB;
+}
+
+.feedbackFooter {
+    margin: 0 auto;
+    max-width: 450px;
+    padding-top: 42px;
+    padding-bottom: 40px;
+}
+
+@media(min-width: 480px) {
+    .feedbackFooter {
+        display: flex;
+        justify-content: space-between;
+    }
+  }
+
+@media(max-width: 480px) {
+    .feedbackFooter {
+        max-width: 290px;
+    }
+    .footerButton {
+        padding-top: 28px;
+    }
+    
+  }
+
+.footerNumber {
+    margin: 0 auto;
+    max-width: 225px;
+}
+
+.footerNumber p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 100%;
+    text-align: right;
+    letter-spacing: 0.01em;
+    color: #2F4152;
+    margin: 0;
+    margin-top: 6.5px;
+}
+
+.footerButton button {
+    margin: 0 auto;
+    width: 190px;
+    height: 40px;
+    border: 2px solid #BB6FC8;
+    box-sizing: border-box;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+.footerButton p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: right;
+    color: #B24D97;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0;
+}
+
+.organizationRegistration {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-bottom: 26px;
+
+}
+
+.organizationRegistration p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    color: #2F4152;
+    margin: 0;
+}
+
+.politics {
+    margin: 0 auto;
+    max-width: 220px;
+    padding-bottom: 47px;
+}
+
+.politics p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    color: #1E4BD2;
+    margin: 0;
+}
+
+@media(max-width: 480px) {
+    .organizationRegistration p {
+        font-size: 12px !important;
+    }
+    .politics p {
+        font-size: 14px !important;
+    }
+    .organizationRegistration {
+        max-width: 290px;
+    }
+  }
