@@ -952,6 +952,7 @@ body {
 .smallButtonSet {
     max-width: 282px;
     margin: 0 auto;
+    z-index: 6;
 }
 
 .smallButtonSet nav ul {
@@ -981,6 +982,7 @@ body {
 
 .smallButtonSet nav ul li:hover > ul {
     display:inherit;
+    z-index: 6;
 }
 
 .smallButtonSet nav ul ul li {
@@ -1018,7 +1020,7 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    z-index: 2;
+    z-index: 4;
     position: relative;
 }
 
@@ -1040,7 +1042,7 @@ body {
     position: relative;
     top: 20px;
     margin: 0 10.5%;
-    z-index: 1;
+    z-index: 3;
 }
 
 .activeCircleDay {
